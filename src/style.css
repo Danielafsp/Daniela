@@ -57,27 +57,6 @@ p {
   text-decoration: none;
 }
 
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
 .project-description a {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
@@ -95,6 +74,30 @@ p {
 .project-description a:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.heading {
+  background: var(--secondary-color);
+  font-family: var(--heading-font-family);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about-paragraphs p {
+  margin: 40px;
+  font-family: var(--default-font-family);
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
