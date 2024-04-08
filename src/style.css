@@ -1,14 +1,15 @@
 :root {
-  --heading-font-family: "Playfair Display", serif;
+  --heading-font-family: "Roboto Condensed", sans-serif;
   --default-font-family: "Poppins", sans-serif;
-  --primary-color: #38598b;
-  --secondary-color: #e7eaf6;
+  --primary-color: #a21232;
+  --secondary-color: #f2f2f2;
 }
 
 body {
   margin: 60px auto;
   max-width: 100%;
   font-family: var(--default-font-family);
+  background-color: #1b1b1b;
 }
 
 h2 {
@@ -21,8 +22,24 @@ p {
   line-height: 30px;
 }
 
+.logo {
+  max-height: 48px;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.nav-link {
+  color: var(--secondary-color);
+}
+
+.nav-link active {
+  color: var(--primary-color);
+}
+
 .hero {
-  background: var(--secondary-color);
+  background: rgb(255, 255, 255, 0.5);
   text-align: center;
   padding: 160px 20px;
 }
@@ -45,6 +62,15 @@ p {
   font-weight: normal;
   font-size: 24px;
   line-height: 2;
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 .navigation-links a {
