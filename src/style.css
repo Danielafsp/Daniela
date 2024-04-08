@@ -24,6 +24,19 @@ p {
   color: var(--secondary-color);
 }
 
+footer p {
+  color: var(--secondary-color);
+  font-size: 12px;
+}
+
+footer a {
+  color: var(--primary-color);
+}
+
+ul {
+  font-size: 20px;
+}
+
 .logo {
   max-height: 48px;
 }
@@ -65,6 +78,21 @@ p {
   line-height: 2;
 }
 
+.box {
+  margin: 60px 0;
+  padding: 20px 260px;
+}
+
+.contact-box {
+  background: rgb(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-box p {
+  margin: 0;
+}
+
 .btn-branding {
   background: var(--primary-color);
   border-radius: 4px;
@@ -72,16 +100,6 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-}
-
-.navigation-links a {
-  background: var(--primary-color);
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-  text-decoration: none;
 }
 
 .project-description a {
