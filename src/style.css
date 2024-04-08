@@ -157,6 +157,26 @@ ul {
   font-family: var(--heading-font-family);
 }
 
+.contact-info {
+  margin: 30px;
+  text-align: center;
+}
+
+.contact-info h1 {
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
+  font-size: 25px;
+}
+
+.email {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   body {
     margin: 20px auto;
