@@ -159,6 +159,21 @@ ul {
     padding: 80px 20px;
   }
 
+  .hero p {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .box {
+    padding: 0 100px;
+    justify-content: center;
+  }
+
+  .box h3,
+  p {
+    text-align: center;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
