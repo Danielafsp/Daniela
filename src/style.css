@@ -41,10 +41,6 @@ ul {
   max-height: 48px;
 }
 
-.navbar {
-  background-color: rgb(255, 255, 255, 0.5);
-}
-
 .nav-link {
   color: var(--secondary-color);
 }
@@ -102,6 +98,29 @@ ul {
   padding: 15px 30px;
 }
 
+.about-content h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 60px;
+  color: var(--primary-color);
+}
+
+.journey {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+.journey-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.journey-content p {
+  font-size: 15px;
+}
 .project-description a {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
@@ -146,6 +165,9 @@ ul {
 }
 
 @media (max-width: 900px) {
+  body {
+    margin: 20px auto;
+  }
   h1 {
     font-size: 44px;
     line-height: 2;
@@ -162,6 +184,10 @@ ul {
   .hero p {
     margin-top: 20px;
     margin-bottom: 0;
+  }
+
+  .contact-btn {
+    margin: 15px 100px;
   }
 
   .box {
