@@ -121,6 +121,16 @@ ul {
 .journey-content p {
   font-size: 15px;
 }
+
+.creations {
+  background: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-size: 69px;
+  font-weight: bold;
+  padding: 60px 20px;
+  margin-bottom: 50px;
+}
 .project-description a {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
@@ -129,39 +139,22 @@ ul {
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
-}
-
-.project-description {
-  padding: 120px 60px;
+  transition: all 100ms ease-in-out;
 }
 
 .project-description a:hover {
-  text-decoration: underline;
+  background: var(--primary-color);
+  color: var(--secondary-color);
   cursor: pointer;
 }
 
-.heading {
-  background: var(--secondary-color);
+.project-description {
+  padding: 10px 60px;
+}
+
+.project-description h2 {
+  font-size: 50px;
   font-family: var(--heading-font-family);
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.about-paragraphs p {
-  margin: 40px;
-  font-family: var(--default-font-family);
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
