@@ -45,7 +45,7 @@ ul {
   color: var(--secondary-color);
 }
 
-.nav-link active {
+.about-content {
   color: var(--primary-color);
 }
 
